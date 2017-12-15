@@ -11,7 +11,9 @@ I'm planning to rewrite the rest of the code for
 but this is highly depends on my spare time.
 
 ## Note
-The ID of a recognized marker won't be the same as in the native [ArUco](https://www.uco.es/investiga/grupos/ava/node/26) library. So before you use this, check your marker's ID in with the lib.
+The ID of a recognized marker won't be the same as in the native [ArUco](https://www.uco.es/investiga/grupos/ava/node/26) library. So before you use this, check your marker's ID in with the lib.  
+
+There is no pose estimation yet.
 
 ## Usage
 ```javacsript
@@ -28,3 +30,5 @@ const detector = new Detector(patterns)
 // Returns an array of Marker object.
 const markers = detector.detect(image)
 ```
+## Demo picture
+![demo-picture](/demo/demo_1.png)
